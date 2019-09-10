@@ -1,0 +1,11 @@
+﻿<h1>Pergunta</h1>
+<div class="form-container">
+    <form method="post">
+        <div class="form-group">
+            <input type="text" id="pergunta" class="form-control" ng-model="vm.pergunta.pergunta" required />
+        <div class="form-group">
+            <button class="btn btn-primary" ng-click="vm.savePergunta()">Save</button>
+            <button class="btn btn-danger" ng-click="vm.deletePergunta()">Delete</button>
+        </div>
+    </form>
+</div>

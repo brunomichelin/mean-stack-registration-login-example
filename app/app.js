@@ -24,6 +24,20 @@
                 controller: 'Account.IndexController',
                 controllerAs: 'vm',
                 data: { activeTab: 'account' }
+            })
+            .state('criarPergunta', {
+                url: '/criarPergunta',
+                templateUrl: 'criarPergunta/index.html',
+                controller: 'CriarPergunta.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'criarPergunta' }
+            })
+            .state('verPergunta', {
+                url: '/verPergunta',
+                templateUrl: 'verPergunta/index.html',
+                controller: 'VerPergunta.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'verPergunta' }
             });
     }
 
